@@ -19,15 +19,15 @@ vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
 
 # Get hardware info
-cpu_number= $(echo "$lscpu_out"  | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
-cpu_architecture= $(echo "$lscpu_out"  | egrep "^Architecture:" | awk '{print $2}' | xargs)
-cpu_model= $(echo "$lscpu_out"  | egrep "^Model:" | awk '{print $2}' | xargs)
-cpu_mhz= $(cat /proc/cpuinfo | egrep "cpu MHz" | awk '{print $4}' | head -n1 | xargs)
-l2_cache= $(echo "$lscpu_out"  | egrep "^L2\scache:" | awk '{print $3}' | xargs)
-total_mem= $(echo "$vmstat_mb" | tail -1 | awk '{print $4}')
+cpu_number=$(echo "$lscpu_out"  | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
+cpu_architecture=$(echo "$lscpu_out"  | egrep "^Architecture:" | awk '{print $2}' | xargs)
+cpu_model=$(echo "$lscpu_out"  | egrep "^Model:" | awk '{print $2}' | xargs)
+cpu_mhz=$(cat /proc/cpuinfo | egrep "cpu MHz" | awk '{print $4}' | head -n1 | xargs)
+l2_cache=$(echo "$lscpu_out"  | egrep "^L2\scache:" | awk '{print $3}' | xargs)
+total_mem=$(echo "$vmstat_mb" | tail -1 | awk '{print $4}')
 
 # Get time in UTC format
-timestamp= $(vmstat -t | awk '{print $18, $19}'| tail -1 | xargs)
+timestamp=$(vmstat -t | awk '{print $18, $19}'| tail -1 | xargs)
 
 ## Check if host_id exists and create a new one if not
 #host_id=$(psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -t -c "SELECT id FROM host_info WHERE hostname='$hostname';" | xargs)
@@ -40,7 +40,7 @@ timestamp= $(vmstat -t | awk '{print $18, $19}'| tail -1 | xargs)
 
 # Insert hardware info into host_info table
 insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, "timestamp", total_mem)
-VALUES($hostname, $cpu_number, $cpu_architecture, $cpu_model, $cpu_mhz, $l2_cache, '$timestamp', $total_mem);"
+VALUES('$hostname', $cpu_number, '$cpu_architecture', $cpu_model, $cpu_mhz, $l2_cache, '$timestamp', $total_mem);"
 
 #set up env var for pql cmd
 export PGPASSWORD=$psql_password

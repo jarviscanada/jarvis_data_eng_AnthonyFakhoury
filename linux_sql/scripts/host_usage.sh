@@ -22,13 +22,13 @@ memory_free=$(echo "$vmstat_mb" | awk '{print $4}'| tail -n1 | xargs)
 cpu_idle=$(echo "$vmstat_mb" | awk '{print $15}'| tail -n1 | xargs)
 cpu_kernel=$(echo "$vmstat_mb" | awk '{print $14}'| tail -n1 | xargs)
 disk_io=$(vmstat -d | awk '{print $10}'| tail -n1 | xargs)
-disk_available=$(df -BM / | tail -1 | awk -v col="4" '{print $col}')
+disk_available=$(df -BM / | tail -1 | awk -v col="4" '{print $col}' | tr -d 'M')
 
 # Get time in UTC format
-timestamp= $(vmstat -t | awk '{print $18, $19}'| tail -1 | xargs)
+timestamp=$(vmstat -t | awk '{print $18, $19}'| tail -1 | xargs)
 
 # Subquery to find matching id in host_info table
-host_id="(SELECT id FROM host_info WHERE hostname='$hostname');"
+host_id="(SELECT id FROM host_info WHERE hostname='$hostname')"
 # Insert server usage data into host_usage table
 insert_stmt="INSERT INTO host_usage (timestamp, host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available)
 VALUES('$timestamp', $host_id, $memory_free, $cpu_idle, $cpu_kernel, $disk_io, $disk_available);"
