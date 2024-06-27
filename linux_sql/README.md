@@ -110,7 +110,7 @@ To ensure continuous monitoring, the `host_usage.sh` script is scheduled to run 
 This implementation ensures a robust and automated system for monitoring and storing hardware specifications and usage data, leveraging a combination of scripting, database management, and scheduling technologies.
 
 ### Architecture
-![Cluster Diagram](./assets/myImage.jpg)
+![Cluster Diagram](./assets/myImage.png)
 
 ## Scripts
 
