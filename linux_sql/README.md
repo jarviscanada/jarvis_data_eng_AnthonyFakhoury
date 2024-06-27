@@ -110,7 +110,7 @@ To ensure continuous monitoring, the `host_usage.sh` script is scheduled to run 
 This implementation ensures a robust and automated system for monitoring and storing hardware specifications and usage data, leveraging a combination of scripting, database management, and scheduling technologies.
 
 ### Architecture
-![my image](./assets/my_image.jpg)
+![Cluster Diagram](./assets/myImage.jpg)
 
 ## Scripts
 
@@ -163,11 +163,12 @@ crontab -e
 
 ### queries.sql
 
-This script contains SQL queries to resolve specific business problems. The queries are designed to analyze the hardware information and usage data stored in the database. Example problems that can be resolved include:
+The queries.sql file contains SQL queries to answer specific business questions related to the Linux Cluster Monitoring Agent project. These queries are designed to analyze the hardware information and usage data stored in the PostgreSQL database.
 
-- Identifying hosts with the highest CPU usage.
-- Monitoring memory usage trends over time.
-- Detecting disk space usage patterns.
+SQL Queries in queries.sql  
+Group Hosts by Hardware Info: This query groups hosts by the number of CPUs and sorts them by memory size in descending order within each CPU group.  
+Average Memory Usage: This query calculates the average used memory percentage over 5-minute intervals for each host.  
+Detect Host Failures: This query detects host failures by identifying hosts that insert less than three data points within a 5-minute interval.  
 
 #### Usage
 ```sh
