@@ -19,11 +19,6 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AnthonyFakhoury",
   "highlighted_projects": [
     {
-      "description": "Repo of some of the following non-Jarvis project at https://github.com/TunaFish-1",
-      "git_url": "https://github.com/TunaFish-1",
-      "name": "Personal github repo"
-    },
-    {
       "description": "Designed and coded classic arcade games on DE1-SOC FPGA: brick-breaker using Verilog and snakes \u0026 ladder in C and ARM.",
       "name": "Brick-Breaker and Snakes \u0026 Ladders"
     },
@@ -32,66 +27,15 @@
       "name": "Geo Map"
     },
     {
-      "description": "The design is made up of four components: the sensor array, data acquisition (DAQ) board, software, and chassis. These four components are integrated to generate a pressure-based heat map, representing the total pressure of either one or both feet on the sensor. The sensor array was purchased from an external party, but the circuit, PCB, firmware, software, and chassis were all designed internally by InSoul.",
+      "description": "The design aim to gather data in order to diagnose foot problems and verify insoles effectivness. The design is made up of four components: the sensor array, data acquisition (DAQ) board, software, and chassis. These four components are integrated to generate a pressure-based heat map, representing the total pressure of either one or both feet on the sensor. The sensor array was purchased from an external party, but the circuit, PCB, firmware, software, and chassis were all designed internally by InSoul.",
       "name": "InSoul - Feet Pressure Sensor Mapping"
-    },
-    {
-      "description": "Created a basic chat platform (no fancy UI) with a server and multiple clients structure.",
-      "name": "Text-conference"
-    },
-    {
-      "description": "sharpening my engineering skills with a multitude of minor fun and useful projects using a variety of sensors.",
-      "name": "Arduino, Esp32 and Raspberry Pi collection of projects"
-    },
-    {
-      "description": "Developing a collection of minor projects (random-quote-machine, drum-machine, markdown-previewer, etc...)",
-      "name": "Full stack development projects"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Engineered a solution aimed at capturing and logging hardware and usage statistics from server hosts into a PostgreSQL database for real-time monitoring and analysis. This system caters primarily to system administrators and IT professionals, facilitating proactive management of server performance and resource utilization. Leveraging Bash scripting, the system automates data collection using common Linux commands (lscpu, vmstat, df) to gather critical hardware details such as CPU architecture, model, speed, and dynamic usage statistics like memory availability and disk space. PostgreSQL serves as the backbone for persistent data storage and management, ensuring robustness in handling collected data. Version control and collaboration are managed through Git, ensuring efficient tracking and management of project iterations. This streamlined approach enhances infrastructure management capabilities, offering a scalable solution for optimizing system performance and enabling informed decision-making through comprehensive monitoring and analysis.",
+      "description": "Engineered a solution aimed at capturing and logging hardware and usage statistics from server hosts into a PostgreSQL database for real-time monitoring and analysis. This system caters primarily to system administrators and IT professionals, facilitating proactive management of server performance and resource utilization. Leveraging Bash scripting, the system automates data collection using common Linux commands (lscpu, vmstat, df) to gather critical hardware details such as CPU architecture, model, speed, and dynamic usage statistics like memory availability and disk space. PostgreSQL serves as the backbone for persistent data storage and management, ensuring robustness in handling collected data. Version control and collaboration are managed through Git, ensuring efficient tracking and management of project iterations. This streamlined approach enhances infrastructure management capabilities, offering a scalable solution for optimizing system performance and enabling informed decision-making through comprehensive monitoring and analysis. Utilizing PostgreSQL and Docker for setup, implementation involves rigorous testing methodologies: manual testing verifies SQL query results, while integration testing ensures compatibility between database schema and queries. Deployment leverages Docker for PostgreSQL instance setup, with GitHub Actions employed for version control and continuous integration. Documentation and progress tracking are managed through a dedicated GitHub repository, ensuring transparency and collaboration throughout the project lifecycle.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": "Designed to enhance SQL proficiency and prepare for SQL interviews, this project provides hands-on SQL practice for SQL learners and job seekers. The architecture includes database tables for members, bookings, and facilities, utilizing PostgreSQL and Docker for setup. Optional SQL IDEs facilitate query development. Implementation involves rigorous testing methodologies: Manual testing verifies SQL query results, while integration testing ensures compatibility between database schema and queries. Deployment leverages Docker for PostgreSQL instance setup, with GitHub Actions employed for version control and continuous integration. Documentation and progress tracking are managed through a dedicated GitHub repository, ensuring transparency and collaboration throughout the project lifecycle. This structured approach supports comprehensive skill development in SQL and prepares users for real-world SQL challenges and job requirements.",
-      "git_url": "/sql",
-      "name": "SQL"
-    },
-    {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Anthony Fakhoury",
@@ -125,7 +69,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "During my 3-month tenure at Jarvis, I underwent rigorous training and completed projects led by industry experts. This period significantly enhanced my technical and soft skills. I gained hands-on experience in Linux, SQL, GIT, SDLC, and design patterns. I worked extensively with Java and Spring Boot to develop microservices and REST APIs, and delved into Cloud Computing and DevOps practices. My training also included data analytics using SQL and Python, as well as Big Data technologies such as Hadoop, Spark, and Scala. Collaborating with Tech Leads and professionals, I drastically improved my coding skills in Java, Python, Scala, and SQL. This experience also helped me unlock new potential, boost my confidence, and develop leadership abilities. Furthermore, I attained several industry-recognized certifications, validating my expertise in these areas.",
+      "description": "At Jarvis, I underwent rigorous training and completed projects led by industry experts. This period significantly enhanced my technical and soft skills. I gained hands-on experience in Linux, SQL, GIT, SDLC, and design patterns. I worked extensively with Java. My training also included data analytics using SQL and Python. Collaborating with Tech Leads and professionals, I drastically improved my coding skills in Java, Python, and SQL. This experience also helped me unlock new potential, boost my confidence, and develop leadership abilities.",
       "duration": "June 2024 - present",
       "title": "Software Developer"
     },
@@ -142,24 +86,14 @@
       "HTML",
       "Javascript",
       "Verilog",
-      "ARM/Assembly",
-      "Code Reviews",
-      "Engineering Standards",
-      "Solution Recommendations",
-      "Software Applications",
-      "Feature and Application Implementation"
+      "ARM/Assembly"
     ],
     "familiar": [
       "CSS",
       "jQuery",
       "Bootstrap",
       "Jupyter",
-      "AI/ML",
-      "Technical Analysis",
-      "Technical Documentation and Reporting",
-      "Project Documentation",
-      "Technical Writing",
-      "Oral and Written Communications"
+      "AI/ML"
     ],
     "proficient": [
       "C/C++",
@@ -171,18 +105,10 @@
       "Git",
       "Jira",
       "Confluence",
-      "Testing and Debugging",
-      "Critical Thinking",
-      "Attention to Detail",
-      "Communication/Team Collaboration",
       "Embedded Systems",
       "Network Engineering",
-      "Software Development",
-      "Hardware Development",
-      "System and Network Security",
-      "Algorithm Implementation",
-      "Database Management"
+      "System and Network Security"
     ]
   },
-  "summary": "I am a recent graduate with a deep commitment to ongoing learning and a meticulous approach to tasks. Armed with a degree in Electrical and Computer Engineering and a solid foundation in Biomedical Engineering and Engineering Business, I am actively engaged in self-directed initiatives, focusing on Full Stack development, Arduino programming and AI. I am eager to secure a position within your esteemed company to apply and further enrich my knowledge, experiences, and skills. As a dedicated team player and emerging leader, I possess the innate ability to engage and inspire others to achieve their highest potential. My diverse experience includes proficiency in various coding techniques such as agile development, software engineering principles, and fundamental algorithms. This, coupled with my effective communication and leadership skills, positions me well to make a positive impact on the success of your team. During my nearly 16-month tenure at ADI, an environment surrounded by global experts in software and hardware development, I maximized the experience to acquire valuable knowledge, diverse experiences, and sharpen my skills. I became proficient in multiple coding languages, including C, Python, Doxygen, Yoda, and Jinja. This experience honed my teamwork and time management skills, allowing me to successfully manage multiple concurrent projects, including unit test testing, API development, and an automated code rendering program. In essence, this opportunity served as a rigorous training ground that expanded my knowledge across all facets of engineering. My overarching goals were to significantly contribute to various company projects, thereby honoring the university I represent. These goals were not only met but exceeded. My work received accolades from superiors, and I evolved into a reliable team member, offering assistance and guidance to colleagues seeking help with various tasks. I am confident that my blend of skills and experiences positions me as an asset to your team, and I am eager to contribute to the continued success of your organization."
+  "summary": "I am a recent honors graduate from the University of Toronto. I majored in Electrical and Computer Engineering and double minored in Biomedical Engineering and Engineering Business. I am actively engaged in self-directed initiatives, focusing on Full Stack development, embedded programming and AI. I have successfully designed and implemented a variety of projects such as a collection of minor websites and embedded programs. I developed classic arcade games like Brick-Breaker using Verilog and Snakes \u0026 Ladders in C and ARM on the DE1-SOC FPGA. Additionally, I created a fully interactive Geo Map using C++. I designed a comprehensive system to generate pressure-based heat maps. My effective communication and leadership skills ensure I can make a positive impact in any project. During my nearly 16-month tenure at ADI, I became proficient in multiple coding languages, including C, Python, Doxygen, Yoda, and Jinja. This experience honed my teamwork and time management skills, allowing me to successfully manage multiple concurrent projects, including unit test testing, API development, and an automated code rendering program. In essence, this opportunity served as a rigorous training ground that expanded my knowledge across all facets of engineering. My work received accolades from superiors, and I evolved into a reliable team member, offering assistance and guidance to colleagues seeking help with various tasks."
 }

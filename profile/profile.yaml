@@ -5,8 +5,8 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AnthonyFak
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a recent graduate majored in Electrical and Computer Engineering and double minored in Biomedical Engineering and Engineering Business. I am actively engaged in self-directed initiatives, focusing on Full Stack development, embedded programming and AI. 
-  My diverse experience includes proficiency in various coding techniques such as agile development, software engineering principles, and fundamental algorithms. This, coupled with my effective communication and leadership skills, positions me well to make a sucessful positive impact.  
+summary: I am a recent honors graduate from the University of Toronto. I majored in Electrical and Computer Engineering and double minored in Biomedical Engineering and Engineering Business. I am actively engaged in self-directed initiatives, focusing on Full Stack development, embedded programming and AI.
+  I have successfully designed and implemented a variety of projects such as a collection of minor websites and embedded programs. I developed classic arcade games like Brick-Breaker using Verilog and Snakes & Ladders in C and ARM on the DE1-SOC FPGA. Additionally, I created a fully interactive Geo Map using C++. I designed a comprehensive system to generate pressure-based heat maps. My effective communication and leadership skills ensure I can make a positive impact in any project.
   During my nearly 16-month tenure at ADI, I became proficient in multiple coding languages, including C, Python, Doxygen, Yoda, and Jinja. This experience honed my teamwork and time management skills, allowing me to successfully manage multiple concurrent projects, including unit test testing, API development, and an automated code rendering program.
   In essence, this opportunity served as a rigorous training ground that expanded my knowledge across all facets of engineering. My work received accolades from superiors, and I evolved into a reliable team member, offering assistance and guidance to colleagues seeking help with various tasks.
 # Group your skills by level.
@@ -126,8 +126,10 @@ professional_experience:
     company: "Jarvis"
     duration: "June 2024 - present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "During my 3-month tenure at Jarvis, I underwent rigorous training and completed projects led by industry experts. This period significantly enhanced my technical and soft skills. I gained hands-on experience in Linux, SQL, GIT, SDLC, and design patterns. I worked extensively with Java and Spring Boot to develop microservices and REST APIs, and delved into Cloud Computing and DevOps practices.
-    My training also included data analytics using SQL and Python, as well as Big Data technologies such as Hadoop, Spark, and Scala. Collaborating with Tech Leads and professionals, I drastically improved my coding skills in Java, Python, Scala, and SQL. This experience also helped me unlock new potential, boost my confidence, and develop leadership abilities. Furthermore, I attained several industry-recognized certifications, validating my expertise in these areas."
+#    description: "At Jarvis, I underwent rigorous training and completed projects led by industry experts. This period significantly enhanced my technical and soft skills. I gained hands-on experience in Linux, SQL, GIT, SDLC, and design patterns. I worked extensively with Java and Spring Boot to develop microservices and REST APIs, and delved into Cloud Computing and DevOps practices.
+#    My training also included data analytics using SQL and Python, as well as Big Data technologies such as Hadoop, Spark, and Scala. Collaborating with Tech Leads and professionals, I drastically improved my coding skills in Java, Python, Scala, and SQL. This experience also helped me unlock new potential, boost my confidence, and develop leadership abilities. Furthermore, I attained several industry-recognized certifications, validating my expertise in these areas."
+    description: "At Jarvis, I underwent rigorous training and completed projects led by industry experts. This period significantly enhanced my technical and soft skills. I gained hands-on experience in Linux, SQL, GIT, SDLC, and design patterns. I worked extensively with Java.
+    My training also included data analytics using SQL and Python. Collaborating with Tech Leads and professionals, I drastically improved my coding skills in Java, Python, and SQL. This experience also helped me unlock new potential, boost my confidence, and develop leadership abilities."
   - title: "Computer Engineer"
     company: "Analog Devices Inc."
     duration: "May 2021 - Aug 2022"
@@ -135,7 +137,7 @@ professional_experience:
     speed ADCs and DACs along with DSP blocks for a complete system on chip. Our group is
     responsible for developing customer facing C APIs that allow configuration and control of the device.
     Some of the projects done are Unit test development, Doxygen implementation, C-API development, YODA register map processing and cataloguing, Guided and assisted the incoming PEY students in various tasks and training."
-#List of edcuation
+#List of education
 education: 
   - school_name: "University of Toronto"
     duration: "2018-2023"
