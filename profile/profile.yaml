@@ -73,15 +73,15 @@ jarvis_projects:
     Utilizing PostgreSQL and Docker for setup, implementation involves rigorous testing methodologies: manual testing verifies SQL query results, while integration testing ensures compatibility between database schema and queries. 
     Deployment leverages Docker for PostgreSQL instance setup, with GitHub Actions employed for version control and continuous integration. 
     Documentation and progress tracking are managed through a dedicated GitHub repository, ensuring transparency and collaboration throughout the project lifecycle."
-  # - name: "Core Java Apps"
-  #   git_url: "/core_java"
-  #   description:
-  #     - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  #     - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  #     - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  # - name: "Springboot App"
-  #   git_url: "/springboot"
-  #   description: ""
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+#         - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+#         - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+         "Grep App: Developed a `grep`-like tool in Java to recursively search through files, identify lines matching a regular expression, and write the results to an output file. Implemented two versions: one using traditional Java I/O and another with Java 8 Streams and lambdas. Utilized core Java, SLF4J for logging, Maven for project management, and Docker for containerization. Conducted manual testing by preparing sample data and running various test cases to verify accuracy. Improved application performance by processing files line by line to optimize memory usage. Created a Docker image to facilitate easier distribution and consistent execution across different environments."
+#   - name: "Springboot App"
+#     git_url: "/springboot"
+#     description: ""
   # - name: "Python Data Analytics"
   #   git_url: "/python_data_anlytics"
   #   description: ""
