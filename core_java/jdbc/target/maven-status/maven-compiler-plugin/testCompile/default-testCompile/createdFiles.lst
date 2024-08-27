@@ -1,0 +1,10 @@
+ca/jrvs/apps/stockquote/dao/QuoteHttpHelperTest.class
+ca/jrvs/apps/practice/NotSoSimpleCalculatorTest.class
+ca/jrvs/apps/practice/OddEvenUnitTest.class
+ca/jrvs/apps/practice/SimpleCalculatorTest.class
+ca/jrvs/apps/stockquote/dao/PositionDaoTest.class
+ca/jrvs/apps/stockquote/dao/QuoteDaoTest.class
+ca/jrvs/apps/stockquote/dao/PositionService_UnitTest.class
+ca/jrvs/apps/stockquote/dao/QuoteService_UnitTest.class
+ca/jrvs/apps/stockquote/dao/PositionService_IntTest.class
+ca/jrvs/apps/stockquote/dao/QuoteService_IntTest.class
