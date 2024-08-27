@@ -1,0 +1,11 @@
+2024-08-23 14:31:58 INFO  infoLogger:21 - Main: Application Started
+2024-08-23 14:31:59 INFO  infoLogger:73 - Stock Quote App Menu
+2024-08-23 14:32:10 INFO  infoLogger:37 - StockQuoteController: View stock quote selected
+2024-08-23 14:32:15 INFO  infoLogger:28 - Quote service: Fetching quote from API
+2024-08-23 14:32:17 INFO  infoLogger:56 - QuoteHttpHelper: Quote sucessfully retrieved from Alpha Vantage API
+2024-08-23 14:32:17 INFO  infoLogger:111 - QuoteDao: No Quote found with symbol A
+2024-08-23 14:32:17 INFO  infoLogger:35 - Quote service: Quote doesn't currently exist in table, saving to table.
+2024-08-23 14:32:17 INFO  infoLogger:111 - QuoteDao: No Quote found with symbol A
+2024-08-23 14:32:17 INFO  infoLogger:57 - QuoteDao: Quote has been saved Quote{ticker='A', open=145.375, high=145.45, low=138.15, price=140.22, volume=2634529, latestTradingDay=2024-08-22, previousClose=139.99, change=0.23, changePercent='0.1643%', timestamp=2024-08-23 14:32:17.434}
+2024-08-23 14:32:17 INFO  infoLogger:73 - Stock Quote App Menu
+2024-08-23 14:32:53 INFO  infoLogger:55 - StockQuoteController: Application Exited
