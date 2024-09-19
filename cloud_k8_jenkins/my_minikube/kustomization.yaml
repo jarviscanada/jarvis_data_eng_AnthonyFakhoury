@@ -1,0 +1,9 @@
+secretGenerator:
+- name: trading-app
+  literals:
+  - password=mypassword
+  - user=postgres
+  - IEX_PUB_TOKEN=baa2240413msh2e60e8817c8fcaap115d3djsn4db12cb6f9f6
+resources:
+  - psql-deployment.yaml
+  - trading-deployment.yaml
