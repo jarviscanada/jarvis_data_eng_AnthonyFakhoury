@@ -44,6 +44,11 @@
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
+    },
+    {
+      "description": "Developed and deployed a scalable cloud-native application using Kubernetes, integrated with a CI/CD pipeline powered by Jenkins. The architecture included an auto-scaling application server, PostgreSQL database, and load balancer to ensure high availability. Automated deployment to production and development environments using Helm charts, Kubernetes services, and Azure resources. Improved the CI/CD process through containerized builds, testing, and automated deployment, leveraging custom Jenkins agents with Azure CLI and Kubernetes tools.",
+      "git_url": "/cloud_k8_jenkins",
+      "name": "Cloud, K8, DevOps"
     }
   ],
   "name": "Anthony Fakhoury",
